@@ -3,6 +3,8 @@ body {
   color: #fff;
   background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
+  padding-top: 70px; /* Add padding to the body to accommodate the fixed navbar */
+
 }
 h1{
   font-size: 26;
@@ -230,10 +232,16 @@ h3.menu-item-title {
   font-style: italic;
 }
 /* END SINGLE CATEGORY PAGE */
+.navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 9999;
+    }
 
 #home-tiles{
   background: lightslategray;
-  margin: 10px;
+  margin: 15px;
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
